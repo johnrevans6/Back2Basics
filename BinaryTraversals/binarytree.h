@@ -7,6 +7,8 @@ using namespace std;
 class BinaryTree
 {
 public:
+
+	//Node created as subclass for encapsulation purposes
 	class Node
 	{
 	public:
@@ -31,6 +33,9 @@ public:
 	void inorderTraversalrec(Node* node);
 	void preorderTraversalrec(Node* node);
 	void postorderTraversalrec(Node* node);
+	void inorderTraversalit(Node* node);
+	void preorderTraversalit(Node* node);
+	void postorderTraversalit(Node* node);
 
 	void destroyTree();
 	
